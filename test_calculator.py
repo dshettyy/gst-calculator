@@ -6,7 +6,7 @@ from calculator import calculate_total
 class TestCalculateTotal(unittest.TestCase):
 
     def test_without_discount(self):
-        self.assertEqual(calculate_total(200), 999.00)
+        self.assertEqual(calculate_total(200), 210.00)
 
     def test_with_discount(self):
         self.assertEqual(calculate_total(400), 378.00)
